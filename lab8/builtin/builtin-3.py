@@ -1,0 +1,5 @@
+print("Enter the string:", end=" ")
+word=input()
+reverse_word=reversed(word)
+palindroming="".join(reverse_word)
+print('Passed string is palindrome') if palindroming==word else print("Passed string is not palindrome")
